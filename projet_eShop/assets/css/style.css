@@ -109,50 +109,48 @@ header #nav {
 /*** Section bandeau ***/
 #bandeau {
   position: relative;
-  height: 70%;
+  height: auto;
   background-color: rgba(152, 170, 192, 0.3);
 }
-#bandeau #bandeau-carousel {
+#bandeau #bandeauCarousel {
   position: relative;
   width: auto;
-  height: 100%;
   background-color: #fff;
 }
-#bandeau #bandeau-carousel .carousel-inner {
+#bandeau #bandeauCarousel .carousel-inner {
   position: relative;
   width: auto;
   height: 100%;
   padding-top: 0.5rem;
 }
-#bandeau #bandeau-carousel .carousel-inner > * {
+#bandeau #bandeauCarousel .carousel-inner > * {
   position: relative;
   width: 100%;
   height: 100%;
 }
-#bandeau #bandeau-carousel .carousel-inner .carousel-item {
+#bandeau #bandeauCarousel .carousel-inner .carousel-item {
   position: relative;
   width: 100%;
   height: 100%;
   background-size: cover;
   background-attachment: fixed;
 }
-#bandeau #bandeau-carousel .carousel-inner .carousel-item .carousel-titre {
-  position: absolute;
-  top: 25%;
-  left: 15%;
+#bandeau #bandeauCarousel .carousel-inner .carousel-item .carousel-titre {
+  width: 45%;
+  padding: 5rem 10rem;
   /******** Texte ********/
   color: #212121;
   text-align: left;
 }
-#bandeau #bandeau-carousel .carousel-inner .carousel-item .carousel-titre h1 {
+#bandeau #bandeauCarousel .carousel-inner .carousel-item .carousel-titre h1 {
   font-size: 2.4rem;
   font-weight: 800;
 }
-#bandeau #bandeau-carousel .carousel-inner .carousel-item .carousel-titre p {
+#bandeau #bandeauCarousel .carousel-inner .carousel-item .carousel-titre p {
   margin-top: 1rem;
   font-weight: 300;
 }
-#bandeau #bandeau-carousel .carousel-inner .carousel-item .carousel-titre button {
+#bandeau #bandeauCarousel .carousel-inner .carousel-item .carousel-titre button {
   background-color: #212121;
   color: #fafafa;
 }
@@ -166,6 +164,7 @@ header #nav {
 /*** Section produits ***/
 #produits {
   background-color: rgba(152, 170, 192, 0.3);
+  position: relative;
 }
 #produits .shopping-cards {
   width: 100%;
@@ -232,8 +231,17 @@ body {
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
   line-height: 1.7;
-  height: auto;
-  width: auto;
 }
 
 /* Sizing des principales parties */
+header {
+  height: 15vh;
+}
+
+main {
+  height: 70%;
+}
+
+footer {
+  height: 15vh;
+}

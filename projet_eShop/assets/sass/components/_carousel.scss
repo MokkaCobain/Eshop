@@ -3,13 +3,13 @@
 
 #bandeau {
     position: relative;
-    height: 70%;
+    height: auto;
     background-color: $blue;
 
-    #bandeau-carousel {
+    #bandeauCarousel {
         position: relative;
         width: auto;
-        height : 100%;
+        // height : 100%;
         background-color: #fff;
      
         .carousel-inner {
@@ -35,10 +35,9 @@
                 background-attachment: fixed;
 
                 .carousel-titre {
-                    position: absolute;
-                    top: 25%;
-                    left: 15%;
-
+                   width : 45%;
+                   padding : 5rem 10rem;
+                    
                     /******** Texte ********/
                     color : $black;
                     text-align: left;

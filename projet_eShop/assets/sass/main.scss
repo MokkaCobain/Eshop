@@ -16,22 +16,21 @@ body {
 	font-size: $defautFontSize;
 	font-family: $myFont;
 	line-height: 1.7;
-	height: auto;
-	width: auto;
+
 	
 }
 
 /* Sizing des principales parties */
 
-// header {
-// 	height : auto;
-// }
-// main {
-//     height: 70vh;
+header {
+	height : 15vh;
+}
+main {
+    height: 70%;
 
 
-// }
+}
 
-// footer {
-// 	height: auto;
-// } 
+footer {
+	height: 15vh;
+} 
