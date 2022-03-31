@@ -1,0 +1,34 @@
+
+
+/*** Section produits ***/
+
+#produits {
+    background-color: $blue;
+
+    .shopping-cards {
+        width: 100%;
+        height : 100%;
+
+        .cards-inner {
+            width: 100%;
+            background-color: #fff;
+
+            //Disposition Flex
+            display: flex;
+            flex-wrap: wrap;
+            
+            .card {
+                width: 25%;
+                margin-top : 0.5rem;
+                padding: 0.5rem;
+                border-style: none;
+              
+
+                .card-text {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+}
